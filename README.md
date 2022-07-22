@@ -11,9 +11,9 @@ MicroMonads provides simple Monads for use in .Net projects.
 
 Nuget Gallery: https://www.nuget.org/packages/RhoMicro.MicroMonads
 
-.Net CLI: `dotnet add package RhoMicro.MicroMonads --version M.m.p`
+.Net CLI: `dotnet add package RhoMicro.MicroMonads --version 1.0.0`
 
-Package Manager: `Install-Package RhoMicro.MicroMonads -Version M.m.p`
+Package Manager: `Install-Package RhoMicro.MicroMonads -Version 1.0.0`
 
 ## How To Use `Maybe<T>`
 
