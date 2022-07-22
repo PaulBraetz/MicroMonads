@@ -5,7 +5,7 @@ MicroMonads provides simple Monads for use in .Net projects.
 ## Featured Monads
 
 1. Maybe
-2. Carry (also nown as log)
+2. Carry (also known as Log)
 
 ## Installation
 
