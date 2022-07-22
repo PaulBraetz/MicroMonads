@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monads", "Monads\Monads.csproj", "{C464B188-EFC7-419B-8C26-A5BEAA709FAC}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{8BD2B14E-1EB0-4D38-84D7-878B70FFA219}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RhoMicro.MicroMonads", "Monads\RhoMicro.MicroMonads.csproj", "{C464B188-EFC7-419B-8C26-A5BEAA709FAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{C464B188-EFC7-419B-8C26-A5BEAA709FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C464B188-EFC7-419B-8C26-A5BEAA709FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C464B188-EFC7-419B-8C26-A5BEAA709FAC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8BD2B14E-1EB0-4D38-84D7-878B70FFA219}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8BD2B14E-1EB0-4D38-84D7-878B70FFA219}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8BD2B14E-1EB0-4D38-84D7-878B70FFA219}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8BD2B14E-1EB0-4D38-84D7-878B70FFA219}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
