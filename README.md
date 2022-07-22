@@ -17,6 +17,8 @@ Package Manager: `Install-Package RhoMicro.MicroMonads -Version 1.0.0`
 
 ## How To Use `Maybe<T>`
 
+`Maybe<T>` encapsulates the notion of a value possibly existing (*maybe* it's there). It can be either just a value or nothing. This means that operations *using* `Maybe<T>` should also return `Maybe<T>` in case one of their operands is nothing. This differs from the notion of `null`, as operations on `Maybe<T>` will not throw exceptions, but instead return `Maybe<T>`.
+
 ### Unit Functions
 
 Instantiate a new `Maybe<T>` using the unit functions `Maybe<T>.Unit`, `Maybe<T>.Just` or `Maybe<T>.Nothing`
