@@ -9,7 +9,7 @@
 	  <Description>Various Monad Types</Description>
 	  <Copyright>2022</Copyright>
 	  <PackageTags>RhoMicro</PackageTags>
-	  <Version>1.0.0</Version>
+	  <Version>2.0.0</Version>
 	  <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	  <PackageId>RhoMicro.MicroMonads</PackageId>
 	  <AssemblyName>MicroMonads</AssemblyName>
