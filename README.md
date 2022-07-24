@@ -73,6 +73,6 @@ Using the helper class `Maybe`, you can reduce the verbosity of your code.
 ```cs
 using static MicroMonads.Maybe;
 
-Maybe<Int32> just12 = Just(12);
+Maybe<Int32> just12 = Just<Int32>(12);
 Maybe<Int32> nothing = Nothing<Int32>();
 ```
