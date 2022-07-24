@@ -1,5 +1,11 @@
-﻿namespace Monads
+﻿namespace MicroMonads
 {
+	public static class Maybe
+	{
+		public static Maybe<T> Unit<T>(Func<T> valueFactory, Boolean hasValue) => Maybe<T>.Unit(valueFactory, hasValue);
+		public static Maybe<T> Just<T>(T value) => Maybe<T>.Just(value);
+		public static Maybe<T> Nothing<T>() => Maybe<T>.Nothing();
+	}
 	public readonly struct Maybe<T> : IEquatable<Maybe<T>>
 	{
 		public Maybe(T value)

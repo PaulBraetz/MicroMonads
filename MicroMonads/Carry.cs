@@ -1,4 +1,4 @@
-﻿namespace Monads
+﻿namespace MicroMonads
 {
 	public readonly struct Carry<T, TCarry> : IEquatable<Carry<T, TCarry>>
 	{
